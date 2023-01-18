@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+       
+        <script>
+            let username = prompt("What is your name")
+if (username === '') {
+    alert('Hello!')
+}
+else {
+    alert("Hello "+username)
+}
+let userquestion = "What do you want"
+let randomy = Number(prompt(userquestion+'\n'+"choose a number between 1-8"))    
+
+let eightball = randomy
+switch(eightball)
+{
+  case 1:
+  alert('It is certain')
+  break;
+  case 2:
+  alert('It is decidedly so')
+  break;
+  case 3:
+  alert('Reply hazy try again')
+  break;
+  case 4:
+  alert('Cannot predict now')
+  break;
+  case 5:
+  alert('Do not count on it')
+  break;
+  case 6:
+  alert('My sources say no')
+  break;
+  case 7:
+  alert('Outlook not so good')
+  break;
+  case 8:
+  alert('Signs point to yes')
+  break;
+  default:
+  alert("Failed")
+}
+alert("Thank you come again")
+        </script>
+    </body>
+</html>
